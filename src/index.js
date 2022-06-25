@@ -20,6 +20,8 @@ app.set('view engine', 'ejs');
 //Routers
 app.use(routers);
 
+//Customs css
+app.use(express.static(join(__dirname, 'public')));
 
 //localhost
 app.listen(3000);
