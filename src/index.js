@@ -24,5 +24,5 @@ app.use(routers);
 app.use(express.static(join(__dirname, 'public')));
 
 //localhost
-app.listen(process.env.Port || 3000);
-console.log('Sever is Listing on Port:', process.env.Port || 3000);
+app.listen(process.env.PORT || 3000);
+console.log('Sever is Listing on Port:', process.env.PORT || 3000);
